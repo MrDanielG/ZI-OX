@@ -14,16 +14,86 @@
   </head>
 
   <body>
-    <div class="container-fluid shadow" id="header" align="center">
+    <!-- Particles Effect -->
+    <div class="container-fluid" id="particles-js"></div>
+
+    <div class="container-fluid shadow middle-img" data-parallax="scroll" data-image-src="imgs/img1.jpg" id="header" align="center">
       <div class="includeMenu"></div>
       <h1 class="display-1" id="Intro">ZI/OX</h1>
-      <h1 class="display-4" id="Intro">Your Idea, Our Code < / > </h1>
+      <h1 class="display-4" id="Intro">Your Idea, Our Code <\> </h1>
     </div>
 
     <div class="container-fluid " align="center" id="DivServicios">
       <h1 id="Pres">Nuestros Servicios</h1>
     </div>
 
+    <!-- Tarjetas de Servicios -->
+    <div id="TarjetasServ">
+      <div class="card-deck">
+        <div class="card shadow-sm">
+          <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1524179329296-21161027e24d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e9c815bc714ff2c1f61af3fc0747ef81&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Applicaciones Web</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47d2b1f32cc05c976af4a39256e01cba&auto=format&fit=crop&w=1050&q=80s" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sistemas Administrativos</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=863ffeea823f0ffb0885fe1a5e77e645&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Páginas Web</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner Mitad -->
+    <div class="container-fluid" id="particles-js"></div>
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="imgs/img2.jpg" id="middle-img"></div>
+    
+    
+    <!-- Tarjetas Creadores -->
+      <div id="creadores">
+          <div class="card-deck">
+            <div class="card shadow-sm" align="center" id="cardCreator">
+                <img src="https://scontent.fzcl1-1.fna.fbcdn.net/v/t1.0-9/25289651_1626428604080779_1248087957595039335_n.jpg?_nc_cat=0&oh=4844b37a9db0485a140ebc4ecf3165a0&oe=5BCE0238" alt="..." class="rounded-circle" id="foto">
+              <div class="card-body">
+                <h5 class="card-title">Applicaciones Web</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+            <div class="card shadow-sm" align="center" id="cardCreator">
+                <img src="https://scontent.fzcl1-1.fna.fbcdn.net/v/t1.0-9/25289651_1626428604080779_1248087957595039335_n.jpg?_nc_cat=0&oh=4844b37a9db0485a140ebc4ecf3165a0&oe=5BCE0238" alt="..." class="rounded-circle" id="foto">
+              <div class="card-body">
+                <h5 class="card-title">Applicaciones Web</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+            <div class="card shadow-sm" align="center" id="cardCreator">
+                <img src="https://scontent.fzcl1-1.fna.fbcdn.net/v/t1.0-9/25289651_1626428604080779_1248087957595039335_n.jpg?_nc_cat=0&oh=4844b37a9db0485a140ebc4ecf3165a0&oe=5BCE0238" alt="..." class="rounded-circle" id="foto">
+              <div class="card-body">
+                <h5 class="card-title">Applicaciones Web</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>  
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -39,7 +109,18 @@
       $(function(){
         $(".includeFooter").load("resources/footer.html"); 
       });
+      /*
+      $(window).scroll((e)=>{
+        console.log(window.scrollY/2);
+        $(".middle-img").css("background-position","0px "+((window.scrollY)-($(".middle-img").offset().top))/-10+"px");
+      }); */
+
   </script>
+
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/parallax.js"></script>
+
  </body>
 </html>
 
