@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+}
+
 #header {
     /* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5587185557816876) 25%, rgba(0,212,255,0.5082983877144608) 100%)*/
     background: rgb(2,0,36);
     background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
     background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);overflow: hidden;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
@@ -33,6 +42,8 @@
 
 #TarjetasServ{
     margin: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #middle-img{
@@ -42,13 +53,10 @@
     background: -webkit-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
     background: linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49097a",endColorstr="#0d024b",GradientType=1);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    background-size: 100% 100%;
     height: 400px;
 }
-
-
 
 #particles-js{
     
@@ -57,14 +65,10 @@
     z-index: 0;
 }
 
-#holo{
-    height: 350px;
-    background-color: black;
-    
-}
-
 #creadores {
     margin: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #cardCreator {
@@ -74,4 +78,28 @@
 .rounded-circle{
     width: 60%;
     height: auto;
+}
+
+#footer{
+    background: rgb(73,9,122);
+    background: -moz-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
+    background: linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49097a",endColorstr="#0d024b",GradientType=1);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+/* Padding en tarjetas */
+@media screen and (max-width: 800px) {
+    #TarjetasServ {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #creadores {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
