@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-body{
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
-    background: linear-gradient(180deg, rgba(255,255,255,0.5503151944371498) 0%, rgba(0,0,0,0.20017513841474088) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+body {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.5503151944371498) 0%, rgba(0, 0, 0, 0.20017513841474088) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.5503151944371498) 0%, rgba(0, 0, 0, 0.20017513841474088) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5503151944371498) 0%, rgba(0, 0, 0, 0.20017513841474088) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000000", GradientType=1);
 }
 
 #header {
     /* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5587185557816876) 25%, rgba(0,212,255,0.5082983877144608) 100%)*/
-    background: rgb(2,0,36);
-    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5503151944371498) 25%, rgba(0,212,255,0.469082701439951) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.5503151944371498) 25%, rgba(0, 212, 255, 0.469082701439951) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.5503151944371498) 25%, rgba(0, 212, 255, 0.469082701439951) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.5503151944371498) 25%, rgba(0, 212, 255, 0.469082701439951) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
     overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
 }
-
 
 .display-1 {
     padding-top: 10px;
@@ -41,30 +40,27 @@ body{
     font-family: Raleway, sans-serif;
 }
 
-#DivServicios{
-}
+#DivServicios {}
 
-#TarjetasServ{
+#TarjetasServ {
     margin-top: 30px;
     margin-bottom: 90px;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-#middle-img{
-
-    background: rgb(73,9,122);
-    background: -moz-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    background: linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49097a",endColorstr="#0d024b",GradientType=1);
+#middle-img {
+    background: rgb(73, 9, 122);
+    background: -moz-linear-gradient(90deg, rgba(73, 9, 122, 0.30101547454919464) 0%, rgba(34, 123, 227, 0.4634804605435925) 54%, rgba(13, 2, 75, 0.4606793400954131) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(73, 9, 122, 0.30101547454919464) 0%, rgba(34, 123, 227, 0.4634804605435925) 54%, rgba(13, 2, 75, 0.4606793400954131) 100%);
+    background: linear-gradient(90deg, rgba(73, 9, 122, 0.30101547454919464) 0%, rgba(34, 123, 227, 0.4634804605435925) 54%, rgba(13, 2, 75, 0.4606793400954131) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49097a", endColorstr="#0d024b", GradientType=1);
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
 }
 
-#particles-js{
-    
+#particles-js {
     height: 400px;
     position: absolute;
     z-index: 0;
@@ -82,40 +78,59 @@ body{
     padding-right: 150px;
 }
 
-#cardCreator {
-    
-}
+#cardCreator {}
 
-.rounded-circle{
+.rounded-circle {
     width: 60%;
     height: auto;
     margin: 20px;
 }
 
-#footer{
-    background: rgb(73,9,122);
-    background: -moz-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    background: linear-gradient(90deg, rgba(73,9,122,0.30101547454919464) 0%, rgba(34,123,227,0.4634804605435925) 54%, rgba(13,2,75,0.4606793400954131) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49097a",endColorstr="#0d024b",GradientType=1);
+#footer {
+    background: rgb(10, 13, 85);
+    background: -moz-linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
+    background: linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d55", endColorstr="#000000", GradientType=1);
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;
 }
 
-.footerfont {
+.footerDivs {
     color: white;
-    font-size: 50px;
-    background-color: red;
+}
+
+.footerFont {
+    margin: 20px;
+}
+
+.footerLink:hover,
+.footerLink:active {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 1em 0;
+    padding: 0;
 }
 
 /* Padding en tarjetas */
+
 @media screen and (max-width: 1024px) {
     #TarjetasServ {
         padding-left: 0px;
         padding-right: 0px;
     }
-
     #creadores {
         padding-left: 0px;
         padding-right: 0px;
