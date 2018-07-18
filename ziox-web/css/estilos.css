@@ -87,11 +87,11 @@ body {
 }
 
 #footer {
-    background: rgb(10, 13, 85);
-    background: -moz-linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
-    background: linear-gradient(90deg, rgba(10, 13, 85, 0.5503151944371498) 0%, rgba(15, 51, 186, 0.6063376034007353) 51%, rgba(0, 0, 0, 0.41306029247636555) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0d55", endColorstr="#000000", GradientType=1);
+    background: rgb(16,20,110);
+background: -moz-linear-gradient(90deg, rgba(16,20,110,0.5503151944371498) 0%, rgba(0,0,0,0.5587185557816876) 100%);
+background: -webkit-linear-gradient(90deg, rgba(16,20,110,0.5503151944371498) 0%, rgba(0,0,0,0.5587185557816876) 100%);
+background: linear-gradient(90deg, rgba(16,20,110,0.5503151944371498) 0%, rgba(0,0,0,0.5587185557816876) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10146e",endColorstr="#000000",GradientType=1);
     background-size: cover;
     background-attachment: fixed;
 }
