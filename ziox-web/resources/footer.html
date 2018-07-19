@@ -35,9 +35,15 @@
 
     <div class="col-12 footerDivs">
       <hr>
-      <p class="text-center footerFont">Copyright © 2018 | ZI/OX Enterprises</p>
+      <p class="text-center footerFont">Copyright © <span id="anio"></span> | ZI/OX Enterprises</p>
     </div>
 
   </div>
 </div>
 <script src="js/parallax.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script>
+    var anio = new Date().getFullYear();
+    $("#anio").text(anio);
+  </script>
